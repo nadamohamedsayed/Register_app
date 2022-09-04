@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/ltxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/ledt1"
+        android:layout_below="@+id/ltxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="please enter your name "
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"/>
+
+    <EditText
+        android:id="@+id/ledt2"
+        android:layout_below="@+id/ledt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="please enter your username "
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/lbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ledt2"
+        android:text="Login"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/ltxt2"
+        android:layout_below="@+id/lbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="don't have an account? sign up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>
